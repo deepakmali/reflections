@@ -8,3 +8,7 @@ How is the staging area different from the working directory and the repository?
 	Working directory may contain lot of files. we may want to track only few files out 
 	all the files in the working directory. That's when the staging area comes into picture.
 	Staging area helps us track the files and commit specific files only.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	I can check with git diff to see if a logical change is done and commit only 
+	after a logical change is done in a file.
