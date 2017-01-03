@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+ If there was no diff, to find the bug i needed to go through each line in old file
+ and manually match and compare it with new file . It would have been a tedious task.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+ Consider i have added a new feature to my app. And after few days I realise that it's 
+ not working as I expected. So if I have the older versions I can easily go back and use
+ the older program files to efficiently run my app.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+  Con is that if the code is commited automatically it may be possible that half
+  words or sentences can be commited and if it is program file it might not run and
+  give syntax error as the statement is not complete. Hence manually choosing to commit
+  is better than automatically commiting. But con is that, if we forget to commit and the
+  machine shuts down abruptly then we won't be able to recover the code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+  Because in coding projects the program files are interlinked and dependent on 
+  each other. So it makes sense to include all the files in a repository for a commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+  git log can be used to view the Modification history with the comments.
+  git diff with two commit Id can be used to get the differences between the entered 
+  commit Ids.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+  I will be very confident and fearless to make the changes that could break things 
+  as i can always go back and checkout the right code commits which work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+  I would like to use it for cloning the repositories from git hub, studying them or 
+  may be contributing to the project.
