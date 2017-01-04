@@ -12,3 +12,12 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 	I can check with git diff to see if a logical change is done and commit only 
 	after a logical change is done in a file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches will be helpful when I don't want to mess with existing working code but want to test a new experimental
+	feature and want to make the same application for different language and want to keep the existing app
+	intact.
+
+How do the diagrams help you visualize the branch structure?
+	Diagrmas will help us to know which commit is linked to what. It will help us get the history of a branch and 
+	what commits are reachable and what commits are not.
